@@ -47,9 +47,6 @@ const port = process.env.PORT || 5000;
 
 
 
-app.get('/', (req, res) => {
-    res.send('Hello world')
-})
 // app.get('/api/todo', (req, res) => {
 //     res.send("Here all your task")
 // })
@@ -64,11 +61,7 @@ if (process.env.NODE_ENV === 'production') {
         res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
     })
 }
-app.post('/', (req, res) => {
-    console.log(req.body);
 
-    res.send('Im working man')
-})
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 
