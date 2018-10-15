@@ -2,7 +2,8 @@
 
 This is a simple todo application using NodeJS and ReactJS. 
 
-##Following components are used:
+#Following components are used:
+
 #### server side
 
 * [Node.js](https://nodejs.org/en/) - as Javascript runtime
