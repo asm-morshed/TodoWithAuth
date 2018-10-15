@@ -24,3 +24,5 @@ This is a simple todo application using NodeJS and ReactJS.
 #### database
 
 * [mlab](https://mlab.com/) - MongoDB database as a service
+
+##### This project has finally been hosted on Heroku. Hope you'll visit.
