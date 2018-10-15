@@ -2,7 +2,7 @@
 
 This is a simple todo application using NodeJS and ReactJS. 
 
-#Following components are used:
+## Following components are used:
 
 #### server side
 
